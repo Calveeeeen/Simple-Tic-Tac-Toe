@@ -1,0 +1,121 @@
+
+/* CSS Code*/
+/* Heading Styling*/
+h1 {
+    color: orangered;
+    font-size: 45px;
+}
+#webpage{
+    margin: -10px;
+    padding-top: 20px;
+    margin-left: -50px;
+    min-height: 1080px;
+    min-width: 110%;
+    background-color: white; /* figure out how to make it the whole background and not just the container*/
+}
+
+/* The 3x3 grid Styling*/
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+    font-weight: 80px;
+    height: 60px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#ticTacToeGrid {
+    margin-left: 20%;
+    max-width: 60%;
+    align-content: center;
+}
+
+/* Reset button Styling*/
+#resetButton {
+    box-sizing: border-box;
+    width: 120px;
+    height: 60px;
+    border: 1px solid teal;
+    margin: auto;
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer; 
+    align-content: center;
+}
+
+/* Player turn space */
+#print {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+/* Main Container Styling*/
+#main {
+    text-align: center;
+} 
+
+/* Game Instructions Styling */
+#instructions {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 17px;
+}
+
+/* Creating a scoreboard counter for the players to keep track of the scores */
+.scoreboard {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.scoreboardName, #scoreboardScore {
+    padding: 10px;
+    text-align: center;
+}
+
+.scoreboardName{
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.scoreboardName--one{
+    color: red;
+}
+
+.scoreboardName--two{
+    color: blue;
+}
+
+.scoreboardScore{
+    font-size: 3em;
+
+}
+
+.scoreboardControls{
+    display: flex;
+}
+
+.scoreboardControlsButton{
+    flex-grow: 1;
+    border: 1px solid black;
+    background: #eeeeee;
+    cursor: pointer;
+    font-size: 1.2em;;
+}
+
+.scoreboardControlsButton:hover {
+    background: lightblue;
+}
+
+.scoreboardControlsButton:active {
+    background: lightgrey;
+}
+
