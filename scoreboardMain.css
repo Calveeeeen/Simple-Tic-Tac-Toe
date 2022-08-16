@@ -1,0 +1,40 @@
+.scoreboard {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+}
+
+.scoreboardName, .scoreboardScore{
+    padding: 10px;
+    text-align: center;
+}
+
+.scoreboardName{
+    font-weight: Bold;
+    border-bottom: 1px solid black;
+}
+
+.scoreboardNameOne{
+    color: red;
+}
+
+.scoreboardNameTwo{
+    color: blue;
+}
+
+.scoreboardScore{
+    font-size: 3em;
+}
+
+.scoreboardControls{
+    display:flex;
+
+}
+
+.scoreboardControlButtons{
+    flex-grow: 1;
+}
+
