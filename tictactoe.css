@@ -11,7 +11,7 @@ h1 {
     margin-left: -50px;
     min-height: 1080px;
     min-width: 110%;
-    background-color: white; /* figure out how to make it the whole background and not just the container*/
+    background-color: #E6D1F2; /* figure out how to make it the whole background and not just the container*/
 }
 
 /* The 3x3 grid Styling*/
@@ -66,5 +66,4 @@ h1 {
     color: dodgerblue;
     font-size: 17px;
 }
-
 

@@ -36,5 +36,17 @@
 
 .scoreboardControlButtons{
     flex-grow: 1;
+    border: 1px solid black;
+    background: lightgrey;
+    cursor: pointer;
+    font-size: 1.2em;
 }
 
+.scoreboardControlButtons:hover{
+    background: grey;
+
+}
+
+.scoreboardControlButtons:active{
+    background: darkgrey;
+}
