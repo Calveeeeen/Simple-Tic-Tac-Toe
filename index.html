@@ -11,7 +11,7 @@
             <script src = "tictactoe.js"> </script>
         </head>
 
-        <body>
+        <body style="margin: 0%;">
             <div id="main">
                 <h1>
                     Tic Tac Toe Game
@@ -60,23 +60,14 @@
                 <!-- Creating space to show player turn -->
                 <p id = "print"></p>
 
-                <br>
-                
+                <br> 
             </div>
-            <div class= "scoreboard">
-                <div class="scoreboardName scoreboardNameOne"> Player One</div>
-                <div class="scoreboardName scoreboardNameTwo"> Player Two</div>
-                <div class="scoreboardScore">0</div>
-                <div class="scoreboardScore">0</div>
-                <div class="scoreboardControls">
-                    <button class="scoreboardControlButtons">-</button>
-                    <button class="scoreboardControlButtons">+</button>
-                </div>
-                <div class="scoreboardControls">
-                    <button class="scoreboardControlButtons">-</button>
-                    <button class="scoreboardControlButtons">+</button>
-                </div>
-            </div>
+
+            <!-- Creating the scoreboard and all of it's functionalities-->
+            <div id="app"></div>
+            <!--conneccting the functionalities to the design-->
+            <script src="scoreboardMain.js" type = "module"></script>
+        
         </body>
     </html>
 </div>
